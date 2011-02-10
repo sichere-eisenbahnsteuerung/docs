@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>Grafisches Eisenbahn Frontend: Interpreter Klassenreferenz</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript">
+$(document).ready(initResizable);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Erzeugt von Doxygen 1.7.3 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Grafisches Eisenbahn Frontend</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Hauptseite</span></a></li>
+      <li><a href="pages.html"><span>ZusÃ¤tzliche&#160;Informationen</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klassen</span></a></li>
+      <li><a href="files.html"><span>Dateien</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Suchen" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Auflistung&#160;der&#160;Klassen</span></a></li>
+      <li><a href="classes.html"><span>Klassen-Verzeichnis</span></a></li>
+      <li><a href="functions.html"><span>Klassen-Elemente</span></a></li>
+    </ul>
+  </div>
+</div>
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+  initNavTree('class_interpreter.html','');
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#signals">Signale</a> &#124;
+<a href="#pub-methods">Ã–ffentliche Methoden</a>  </div>
+  <div class="headertitle">
+<h1>Interpreter Klassenreferenz</h1>  </div>
+</div>
+<div class="contents">
+<!-- doxytag: class="Interpreter" -->
+<p><a href="class_interpreter-members.html">Aufstellung aller Elemente</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="signals"></a>
+Signale</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af7f94a7a0d7c060371f4eb628e4d31ee"></a><!-- doxytag: member="Interpreter::message_decoded" ref="af7f94a7a0d7c060371f4eb628e4d31ee" args="(QList&lt; RailEvent &gt; events)" -->
+void&#160;</td><td class="memItemRight" valign="bottom"><b>message_decoded</b> (QList&lt; <a class="el" href="struct_rail_event.html">RailEvent</a> &gt; events)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4d7b7ce4545fc940d3ebc9d1ffe7d1fb"></a><!-- doxytag: member="Interpreter::encoding_finished" ref="a4d7b7ce4545fc940d3ebc9d1ffe7d1fb" args="(QByteArray message)" -->
+void&#160;</td><td class="memItemRight" valign="bottom"><b>encoding_finished</b> (QByteArray message)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abfa09767828dfeb0a40e25a5baea9f3f"></a><!-- doxytag: member="Interpreter::status_message" ref="abfa09767828dfeb0a40e25a5baea9f3f" args="(QString message, int source, int type)" -->
+void&#160;</td><td class="memItemRight" valign="bottom"><b>status_message</b> (QString message, int source, int type)</td></tr>
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+Ã–ffentliche Methoden</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interpreter.html#a7c573178a72b3149b4832af30fea3545">Interpreter</a> (QObject *parent=0)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor der Klasse.  <a href="#a7c573178a72b3149b4832af30fea3545"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interpreter.html#af9b9a59f9deac86458bc98bfb8f58b87">configure_interpreter</a> (<a class="el" href="struct_interpreter_config.html">InterpreterConfig</a> config)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Setzt eine Neue Konfiguration für das Modul.  <a href="#af9b9a59f9deac86458bc98bfb8f58b87"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interpreter.html#abab2eb9d6682ab13600b5c8c424239e4">initialize_interpreter</a> ()</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialisiert das Modul mit der aktuellen Konfiguration.  <a href="#abab2eb9d6682ab13600b5c8c424239e4"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interpreter.html#acea9e3f53d81fe75dc680ce55350a8c0">start_interpreter</a> ()</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Startet das Modul.  <a href="#acea9e3f53d81fe75dc680ce55350a8c0"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interpreter.html#a3784ffe2f16eb0324afe501d1d633dfc">stop_interpreter</a> ()</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Beendet das Modul kontrolliert.  <a href="#a3784ffe2f16eb0324afe501d1d633dfc"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a08c2709b692e970ee39bd86771eafe"></a><!-- doxytag: member="Interpreter::is_terminated" ref="a6a08c2709b692e970ee39bd86771eafe" args="()" -->
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interpreter.html#a6a08c2709b692e970ee39bd86771eafe">is_terminated</a> ()</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Gibt zurück ob das Modul beendet ist. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interpreter.html#ab6f225bc2aec05764912f40b036fc37c">add_incoming_data</a> (QByteArray data)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Sammelt eingehende Rohdaten und stößt interpretation an.  <a href="#ab6f225bc2aec05764912f40b036fc37c"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interpreter.html#a00b0572a69c3b82b06b79339f4c83cc7">encode_outgoing_message</a> (QString message)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Kodiert eine Nachricht zum senden über die Serielle Schnittstelle.  <a href="#a00b0572a69c3b82b06b79339f4c83cc7"></a><br/></td></tr>
+</table>
+<hr/><h2>Beschreibung der Konstruktoren und Destruktoren</h2>
+<a class="anchor" id="a7c573178a72b3149b4832af30fea3545"></a><!-- doxytag: member="Interpreter::Interpreter" ref="a7c573178a72b3149b4832af30fea3545" args="(QObject *parent=0)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Interpreter::Interpreter </td>
+          <td>(</td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>0</code></td><td>)</td>
+          <td><code> [explicit]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Konstruktor der Klasse. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Noch zu erledigen:</a></b></dt><dd>Implementieren </dd></dl>
+
+</div>
+</div>
+<hr/><h2>Dokumentation der Elementfunktionen</h2>
+<a class="anchor" id="ab6f225bc2aec05764912f40b036fc37c"></a><!-- doxytag: member="Interpreter::add_incoming_data" ref="ab6f225bc2aec05764912f40b036fc37c" args="(QByteArray data)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Interpreter::add_incoming_data </td>
+          <td>(</td>
+          <td class="paramtype">QByteArray&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Sammelt eingehende Rohdaten und stößt interpretation an. </p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>Rohdaten die zu interpretieren sind.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000036">Noch zu erledigen:</a></b></dt><dd>Implementieren </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af9b9a59f9deac86458bc98bfb8f58b87"></a><!-- doxytag: member="Interpreter::configure_interpreter" ref="af9b9a59f9deac86458bc98bfb8f58b87" args="(InterpreterConfig config)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Interpreter::configure_interpreter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_interpreter_config.html">InterpreterConfig</a>&#160;</td>
+          <td class="paramname"><em>config</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Setzt eine Neue Konfiguration für das Modul. </p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">config</td><td>Neue Konfiguration</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Noch zu erledigen:</a></b></dt><dd>Implementieren </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a00b0572a69c3b82b06b79339f4c83cc7"></a><!-- doxytag: member="Interpreter::encode_outgoing_message" ref="a00b0572a69c3b82b06b79339f4c83cc7" args="(QString message)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Interpreter::encode_outgoing_message </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Kodiert eine Nachricht zum senden über die Serielle Schnittstelle. </p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td>Zu kodierende Nachricht</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000037">Noch zu erledigen:</a></b></dt><dd>Implementieren </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abab2eb9d6682ab13600b5c8c424239e4"></a><!-- doxytag: member="Interpreter::initialize_interpreter" ref="abab2eb9d6682ab13600b5c8c424239e4" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Interpreter::initialize_interpreter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initialisiert das Modul mit der aktuellen Konfiguration. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000033">Noch zu erledigen:</a></b></dt><dd>Implementieren </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="acea9e3f53d81fe75dc680ce55350a8c0"></a><!-- doxytag: member="Interpreter::start_interpreter" ref="acea9e3f53d81fe75dc680ce55350a8c0" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Interpreter::start_interpreter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Startet das Modul. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000034">Noch zu erledigen:</a></b></dt><dd>Implementieren </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3784ffe2f16eb0324afe501d1d633dfc"></a><!-- doxytag: member="Interpreter::stop_interpreter" ref="a3784ffe2f16eb0324afe501d1d633dfc" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Interpreter::stop_interpreter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Beendet das Modul kontrolliert. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000035">Noch zu erledigen:</a></b></dt><dd>Implementieren </dd></dl>
+
+</div>
+</div>
+<hr/>Die Dokumentation fÃ¼r diese Klasse wurde erzeugt aufgrund der Dateien:<ul>
+<li>D:/Studium/Projekt/git_tools/tools/01_PC-Frontend/GEF/<a class="el" href="interpreter_8h_source.html">interpreter.h</a></li>
+<li>D:/Studium/Projekt/git_tools/tools/01_PC-Frontend/GEF/interpreter.cpp</li>
+</ul>
+</div>
+</div>
+  <div id="nav-path" class="navpath">
+    <ul>
+      <li class="navelem"><a class="el" href="class_interpreter.html">Interpreter</a>      </li>
+      <li class="footer">Erzeugt am Thu Feb 10 2011 08:48:36 fÃ¼r Grafisches Eisenbahn Frontend von&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.3 </li>
+    </ul>
+  </div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Alle</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Klassen</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Funktionen</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+
+</body>
+</html>

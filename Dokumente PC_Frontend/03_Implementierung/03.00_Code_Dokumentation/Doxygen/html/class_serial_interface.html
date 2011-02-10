@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>Grafisches Eisenbahn Frontend: SerialInterface Klassenreferenz</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript">
+$(document).ready(initResizable);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Erzeugt von Doxygen 1.7.3 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Grafisches Eisenbahn Frontend</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Hauptseite</span></a></li>
+      <li><a href="pages.html"><span>ZusÃ¤tzliche&#160;Informationen</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klassen</span></a></li>
+      <li><a href="files.html"><span>Dateien</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Suchen" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Auflistung&#160;der&#160;Klassen</span></a></li>
+      <li><a href="classes.html"><span>Klassen-Verzeichnis</span></a></li>
+      <li><a href="functions.html"><span>Klassen-Elemente</span></a></li>
+    </ul>
+  </div>
+</div>
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+  initNavTree('class_serial_interface.html','');
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#signals">Signale</a> &#124;
+<a href="#pub-methods">Ã–ffentliche Methoden</a> &#124;
+<a href="#pro-methods">GeschÃ¼tzte Methoden</a>  </div>
+  <div class="headertitle">
+<h1>SerialInterface Klassenreferenz</h1>  </div>
+</div>
+<div class="contents">
+<!-- doxytag: class="SerialInterface" -->
+<p>Regelt den gesamten Rohdatenverkehr über den COM-Port.  
+<a href="#_details">Mehr ...</a></p>
+
+<p><code>#include &lt;<a class="el" href="serialinterface_8h_source.html">serialinterface.h</a>&gt;</code></p>
+
+<p><a href="class_serial_interface-members.html">Aufstellung aller Elemente</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="signals"></a>
+Signale</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51a684aa0d39d4033ba3b2ab5aee288e"></a><!-- doxytag: member="SerialInterface::incoming_bytes" ref="a51a684aa0d39d4033ba3b2ab5aee288e" args="(QByteArray data)" -->
+void&#160;</td><td class="memItemRight" valign="bottom"><b>incoming_bytes</b> (QByteArray data)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5d681af29abdaf19a9eb304cabcdadde"></a><!-- doxytag: member="SerialInterface::status_message" ref="a5d681af29abdaf19a9eb304cabcdadde" args="(QString message, int source, int type)" -->
+void&#160;</td><td class="memItemRight" valign="bottom"><b>status_message</b> (QString message, int source, int type)</td></tr>
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+Ã–ffentliche Methoden</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serial_interface.html#a6cf32989e9ff27f5c9af2ec4421393f0">SerialInterface</a> (QObject *parent=0)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor der Klasse.  <a href="#a6cf32989e9ff27f5c9af2ec4421393f0"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serial_interface.html#a5facc8f51effbf6c21edaf3a1e432e10">configure_serial_interface</a> (<a class="el" href="struct_serial_config.html">SerialConfig</a> config)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Übergibt eine Konfigurationsstruktur an das Interface.  <a href="#a5facc8f51effbf6c21edaf3a1e432e10"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serial_interface.html#a1cacf7e4acc2ba3f6493bfb0954cacf7">initialize_serial_interface</a> ()</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialisiert die serielle Schnittstelle.  <a href="#a1cacf7e4acc2ba3f6493bfb0954cacf7"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serial_interface.html#a6bcef3815bc5f1a13f40e3df7e7315bf">stop_serial_interface</a> ()</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Funktion zum Anhalten der seriellen Schnittstelle.  <a href="#a6bcef3815bc5f1a13f40e3df7e7315bf"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serial_interface.html#a0054eddcf461b193eb8b22b7ebd2af61">start_serial_interface</a> ()</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Startet die serielle Schnittstelle.  <a href="#a0054eddcf461b193eb8b22b7ebd2af61"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa2a7aeb9d9ffe5bae34a5b3e736c4a8e"></a><!-- doxytag: member="SerialInterface::is_terminated" ref="aa2a7aeb9d9ffe5bae34a5b3e736c4a8e" args="()" -->
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serial_interface.html#aa2a7aeb9d9ffe5bae34a5b3e736c4a8e">is_terminated</a> ()</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Gibt zurück ob das Modul beendet ist. <br/></td></tr>
+<tr><td colspan="2"><h2><a name="pro-methods"></a>
+GeschÃ¼tzte Methoden</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serial_interface.html#a3e511ba910718bb00f035850a88731b0">run</a> ()</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Hauptschleife des Threads. Empfängt Daten und gibt sie zurück.  <a href="#a3e511ba910718bb00f035850a88731b0"></a><br/></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>AusfÃ¼hrliche Beschreibung</h2>
+<div class="textblock"><p>Regelt den gesamten Rohdatenverkehr über den COM-Port. </p>
+<p>Die Klasse verfügt über kein "Wissen" über die Dateninhalte sondern empfängt lediglich die Rohdaten und gibt diese zurück. </p>
+</div><hr/><h2>Beschreibung der Konstruktoren und Destruktoren</h2>
+<a class="anchor" id="a6cf32989e9ff27f5c9af2ec4421393f0"></a><!-- doxytag: member="SerialInterface::SerialInterface" ref="a6cf32989e9ff27f5c9af2ec4421393f0" args="(QObject *parent=0)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerialInterface::SerialInterface </td>
+          <td>(</td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>0</code></td><td>)</td>
+          <td><code> [explicit]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Konstruktor der Klasse. </p>
+<p>Wird beim Erstellen eines Serial-Interface Objekts aufgerufen. Initialisiert die Klassenweit verfügbaren Status-Variablen. </p>
+
+</div>
+</div>
+<hr/><h2>Dokumentation der Elementfunktionen</h2>
+<a class="anchor" id="a5facc8f51effbf6c21edaf3a1e432e10"></a><!-- doxytag: member="SerialInterface::configure_serial_interface" ref="a5facc8f51effbf6c21edaf3a1e432e10" args="(SerialConfig config)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SerialInterface::configure_serial_interface </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_serial_config.html">SerialConfig</a>&#160;</td>
+          <td class="paramname"><em>config</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Übergibt eine Konfigurationsstruktur an das Interface. </p>
+<p>Die Struktur "SerialConfig" enthält alle Parameter um einen COM-Port zu öffnen. Das Interface lässt sich nur dann konfigurieren wenn es nicht läuft.</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">config</td><td>Konfigurationsdatei</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>RÃ¼ckgabe:</b></dt><dd>SUCCESS Konfiguration erfolgreich. </dd>
+<dd>
+FAILURE Konfiguration war nicht möglich. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1cacf7e4acc2ba3f6493bfb0954cacf7"></a><!-- doxytag: member="SerialInterface::initialize_serial_interface" ref="a1cacf7e4acc2ba3f6493bfb0954cacf7" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SerialInterface::initialize_serial_interface </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initialisiert die serielle Schnittstelle. </p>
+<p>Es wird dafür die übergebene Kofiguration verwendet um den COM-Port zu öffnen und die übergebenen Parameter zu setzen. Eine initialisierung kann nur durchgeführt werden wenn die Schnittstelle nicht läuft und eine Konfiguration übergeben wurde.</p>
+<dl class="return"><dt><b>RÃ¼ckgabe:</b></dt><dd>SUCCESS Schnittstelle wurde erfolgreich initialisiert. </dd>
+<dd>
+FAILURE Fehler bei der Initialisierung. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3e511ba910718bb00f035850a88731b0"></a><!-- doxytag: member="SerialInterface::run" ref="a3e511ba910718bb00f035850a88731b0" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SerialInterface::run </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Hauptschleife des Threads. Empfängt Daten und gibt sie zurück. </p>
+<p>Empfängt Daten über den COM-Port ohne diese zu interpretieren. Daten werden je nach gewählten Timeouts in unregelmäßigen Blöcken gelesen und per SIGNAL weitergeleitet. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0054eddcf461b193eb8b22b7ebd2af61"></a><!-- doxytag: member="SerialInterface::start_serial_interface" ref="a0054eddcf461b193eb8b22b7ebd2af61" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SerialInterface::start_serial_interface </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Startet die serielle Schnittstelle. </p>
+<p>Ein Start ist nur möglich wenn die Schnittstelle initialisiert ist und nicht läuft.</p>
+<dl class="return"><dt><b>RÃ¼ckgabe:</b></dt><dd>SUCCESS Start erfolgreich. </dd>
+<dd>
+FAILURE Start war nicht möglich. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6bcef3815bc5f1a13f40e3df7e7315bf"></a><!-- doxytag: member="SerialInterface::stop_serial_interface" ref="a6bcef3815bc5f1a13f40e3df7e7315bf" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SerialInterface::stop_serial_interface </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Funktion zum Anhalten der seriellen Schnittstelle. </p>
+<p>Es wird ein Flag(stopping) gesetzt welches dem Thread signalisiert, dass er anhalten soll. Es können u.U noch Nachrichten empfangen werden bevor der Thread gestoppt ist.</p>
+<dl class="return"><dt><b>RÃ¼ckgabe:</b></dt><dd>SUCCESS Stop-Flag wurde erfolgreich gesetzt. </dd>
+<dd>
+FAILURE Fehler beim Setzen des Stop-Flags. </dd></dl>
+
+</div>
+</div>
+<hr/>Die Dokumentation fÃ¼r diese Klasse wurde erzeugt aufgrund der Dateien:<ul>
+<li>D:/Studium/Projekt/git_tools/tools/01_PC-Frontend/GEF/<a class="el" href="serialinterface_8h_source.html">serialinterface.h</a></li>
+<li>D:/Studium/Projekt/git_tools/tools/01_PC-Frontend/GEF/serialinterface.cpp</li>
+</ul>
+</div>
+</div>
+  <div id="nav-path" class="navpath">
+    <ul>
+      <li class="navelem"><a class="el" href="class_serial_interface.html">SerialInterface</a>      </li>
+      <li class="footer">Erzeugt am Thu Feb 10 2011 08:48:36 fÃ¼r Grafisches Eisenbahn Frontend von&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.3 </li>
+    </ul>
+  </div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Alle</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Klassen</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Funktionen</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+
+</body>
+</html>
